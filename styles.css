@@ -257,6 +257,7 @@ footer {
   font-weight: bold;
   margin-bottom: 15px;
   color: #333;
+  text-align: center !important;
 }
 
 /* ————— Mapa más pequeño y responsive ————— */
@@ -292,3 +293,4 @@ footer {
   color: #e20a0a;
   text-align: center;
 }
+
