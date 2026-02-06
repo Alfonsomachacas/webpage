@@ -244,11 +244,51 @@ footer {
   padding: 15px;
 }
 
-
-.map-container {
-  display: flex;
-  justify-content: center;
+/* ————— Estilizado de sección ubicación ————— */
+.ubicacion {
+  text-align: center;
+  margin: 40px auto;
+  max-width: 900px;
+  padding: 0 15px;
 }
+
+.ubicacion-titulo {
+  font-size: 1.8rem;
+  font-weight: bold;
+  margin-bottom: 15px;
+  color: #333;
+}
+
+/* ————— Mapa más pequeño y responsive ————— */
+.map-responsive {
+  position: relative;
+  width: 100%;
+  padding-bottom: 56.25%; /* Relación 16:9 */
+  height: 0;
+  overflow: hidden;
+  margin: 0 auto 15px auto;
+  max-width: 600px; /* Máximo ancho para no ser gigante */
+}
+
+.map-responsive iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border: 0;
+}
+
+
+
 .location {
   padding: 30px;
+}
+
+/* ————— Estilo pequeño para coordenadas ————— */
+.coordenadas {
+  margin-top: 10px;
+  font-size: 0.95rem;
+  color: #e20a0a;
+  text-align: center;
 }
