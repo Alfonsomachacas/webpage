@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Machaca Mocorito</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <!-- HERO -->
+  <header class="hero">
+    <div class="hero-content">
+      <h1>Machaca Mocorito "PONCHO ALEGRE"</h1>
+      <p>Tradición del campo con procesos modernos</p>
+    </div>
+  </header>
+
+  <!-- CARRUSEL -->
+    <section class="carousel-section">
+    <h2>Nuestro Producto</h2>
+
+    <div class="carousel">
+    <div class="carousel-track">
+      <img src="m1.jpg" alt="Machaca">
+      <img src="m2.jpg" alt="Carne seca">
+      <img src="m3.jpg" alt="Machaca mexicana">
+    </div>
+
+    <!-- Flechas -->
+    <button class="carousel-btn prev" aria-label="Anterior">‹</button>
+    <button class="carousel-btn next" aria-label="Siguiente">›</button>
+  </div>
+</section>
+
+  <!-- PRODUCTOS -->
+  <section>
+    <h2>Presentaciones</h2>
+    <div class="product-grid">
+      <div class="card">
+        <h3>Machaca Tradicional</h3>
+        <p class="price">$180 MXN</p>
+        <p>Lista para cocinar.</p>
+        <button onclick="contactarWhatsApp('Machaca Tradicional')">
+          Comprar por WhatsApp
+        </button>
+      </div>
+
+      <div class="card">
+        <h3>Machaca Preparada</h3>
+        <p class="price">$200 MXN</p>
+        <p>Con especias regionales.</p>
+        <button onclick="contactarWhatsApp('Machaca Preparada')">
+          Comprar por WhatsApp
+        </button>
+      </div>
+
+      <div class="card">
+        <h3>Machaca Premium</h3>
+        <p class="price">$250 MXN</p>
+        <p>Corte seleccionado.</p>
+        <button onclick="contactarWhatsApp('Machaca Premium')">
+          Comprar por WhatsApp
+        </button>
+      </div>
+    </div>
+  </section>
+
+  <!-- UBICACIÓN -->
+  <section class="map-container">
+    <h2>Ubicación</h2>
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7203.360145598211!2d-107.9277943316197!3d25.48235620973891!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x86bc763341d1162b%3A0xb3f7d5c3febe6efb!2sMocorito%2C%20Sin.!5e0!3m2!1ses-419!2smx!4v1770410869243!5m2!1ses-419!2smx" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+  </section>
+
+  <!-- CONTACTO -->
+  <section class="contact">
+    <h2>Contáctanos</h2>
+        <form class="contact-form" id="contactForm">
+        <div class="form-group">
+        <input type="text" placeholder="Nombre" required>
+    </div>
+    <div class="form-group">
+        <input type="email" placeholder="Correo electrónico" required>
+    </div>
+    <div class="form-group">
+      <textarea placeholder="Mensaje" rows="4" required></textarea>
+    </div>
+        <button type="submit">Enviar mensaje</button>
+  </form>
+  </section>
+
+  <!-- BOTÓN WHATSAPP FLOTANTE -->
+  <a
+    href="https://wa.me/5216671563189"
+    class="whatsapp-float"
+    target="_blank"
+    aria-label="WhatsApp"
+  >
+    💬
+  </a>
+
+  <footer>
+    <p>© 2026 Machaca Mocorito · Tradición & Tecnología</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
