@@ -282,3 +282,9 @@ footer {
   font-size: 0.9rem;
   color: #555;
 }
+
+p {
+    text-indent: 10px;
+    margin-bottom: 10px;
+}
+
